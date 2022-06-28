@@ -33,23 +33,129 @@
 \setcounter{page}{1} % ページ番号を1から振り直す
 
 % 修士論文や博士論文等で記述ページが多い場合は，\section（節） ではなく，\chapter（章） を使ってください
+
+%1：とりあえず形態がキモい　記述の仕方を最低限改めて、あまりにも不本意な内容を治す　追記箇所は多少雑でもいい
+%２：内容自体を差し障りない程度にアップデートし、文章としての質もさらに見直す
+%３：研究計画書というフォーマットの性質上避けたのかもしれないけど、参照すべきものは記載しておく やっぱりいらないかもしれないが
 \section{テーマ}
-髪の毛等のパーツを意図的に動かすことで、感情表現を拡張するウェアラブルデバイスの提案
+髪の毛を動かして情報提示を行うウェアラブルデバイスの制作と評価
 
 \section{そのテーマを希望する理由・動機}
-感情表現の手段を増やすことによって、コミュニケーションを豊かにしたいからです。
-人間の感情は主に顔面の表情や身振り手振りによって表現されますが、犬や猫のように動かせる耳や尻尾があれば、表現の幅が広がると考えます。また、筋肉の病気の有無にかかわらず、表情をうまく作れない人がいます。人間のコミュニケーションが主に顔を見て行われることを踏まえると、顔付近に感情表現の手段が増えることは、アドバンテージになると考えます。
-つけ耳・つけ尻尾は既に製品化されており、中には動く機能を搭載したものもあります。しかし、耳や尻尾を模したものを「つける」と、それだけ目立つことになり、公の場での常用はしづらくなります。そこで、耳や尻尾の「形」をつけるのではなく、動かす対象は髪の毛などの既存のパーツとし、それを意図的に動かす「機能」を普段使いしやすいかたちで提案したいと考えます。
+感情や意図の表現の手段を増やすことで、コミュニケーションの選択肢を増やすためである。
+人間の感情や意図は、発話や顔面の表情、身振り手振り等によって表現されるが、犬や猫のように動かせる耳や尻尾があれば、表現の幅が広がると考える。また、筋肉の病気や習慣の影響で、表情をうまく作れない人がいる。人間のコミュニケーションが主に顔を見て行われることを踏まえると、顔付近に表現の手段が増えることは、アドバンテージになると考える。
+%以下はもう２に集約すべきじゃない？
+つけ耳・つけ尻尾は既に製品化されており、中には動く機能をもつ製品もある。しかし、耳や尻尾を模したものをつけると目立つため、使用シーンが限られる課題がある。そこで、耳や尻尾の「形」をつけるのではなく、動かす対象は人体中のパーツや人が普段身につける装飾品とし、それを意図的に動かす「機能」を普段使いしやすいかたちで提案する。動かす対象として、顔付近にある髪を採用する。
 
 \section{そのテーマに関する研究の状況や背景}
-人間につける尻尾の研究は「バランスをとる」「意図・感情を表現する」など複数の目的で展開されています。その成果物の多くは大きくて厳ついなど、座ることの多い生活では扱いにくい仕様になっています。そのような扱いづらさを概ね解消している作品に、脳波で動くしっぽ「shippo」があります。製品化されたシリーズ作品に、脳波で動く猫耳「necomimi」がありますが、仕様上、気軽に手に入る価格ではありません。いずれにせよ、これらの作品は動物らしさを表現したデザインになっているため、装着すると目立つという点と、脳波の計測が負担になるケースも考えられます。
+%しっぽ系の研究のことを一生懸命例示してるけど、ここは本質じゃないことをわかってない？
+人間につける尻尾の研究は
+バランスをとる\cite{Augmenting Human With a Tail}、意図・感情を表現する\cite{Augmenting Human With a Tail}など、複数の目的で展開されている。その成果物の多くは大きくて厳ついなど、座ることの多い生活では扱いにくい仕様になっている。そのような扱いづらさを概ね解消している作品に、脳波で動くしっぽ「shippo」\cite{necomimi}があります。製品化されたシリーズ作品に、脳波で動く猫耳「necomimi」\cite{necomimi}がありますが、仕様上、気軽に手に入る価格ではありません。また、サーボモーター駆動のため、音がすること、長時間着用するには重量が重く、着用者の負担になる課題がある。なにより、これらの作品は動物らしさを表現したデザインになっている。装着すると目立つ点が、全事例に共通する課題である。%内容をガッツリいじってもしょうがないけど、差し支えない範囲でどうにかしたい
 
 \section{研究の目的} 
-新しい表現方法およびコミュニケーションを提案することです。また、意図的に動かせる機能を獲得したパーツが、コミュニケーションに自然に生かせるかを検証することです。
+目立たないという条件下で髪、とくに毛束を動かす手法の開発。編み込まない髪型、振るなどこれまで提案されて来なかった動きのバリエーションを展開する。髪を動かすことがどのような文脈、状況で受け入れられる　活用できるのかを評価する。コミュニケーションに自然に生かせるかを検証することです。　動く髪を通じたコミュニケーションを提案することです。
 
 \section{考えられる研究の方法} 
-初めから地毛を扱うのは難しいため、エクステやかつらでの試作を経て、徐々に地毛にアプローチしていきます。 試作したツールを日常生活において実証実験し、操作方法や挙動を評価し、改善します。
+髪を動かす技術的な検証段階については、ヘアエクステンションやかつらを用いた試作と、地毛で実現する有用性を吟味の上、地毛への展開を試みる。評価の段階では、プロトタイプを日常生活で用いることや、体験型のワークショップを通じて実証実験を行う。ユーザや観察者の意見・感想を収集して、操作方法や挙動を評価し、改善する。
 
 \section{その研究の特色}
-身体の物理的な拡張をベースとした機能強化ではなく、既存のパーツに対して機能拡張を目指している点です。また、関連研究の成果物が非日常向けの仕様が多いのに対して、日常的に利用可能なアウトプットを目標とし、新しいコミュニケーションの提案を目的としている点です。
+ハードウェアとしての身体拡張を伴わず、既存の身体部位に対して機能拡張を行う点で、デバイス着用における心身への負荷を軽減できる点が特色である。また、関連研究の成果物の多くが目立つ外観をしているのに対して、目立たないデバイスを目指す点、また髪を動かすことが日常的な文脈でいかに活かし得るのかを探求する点が特徴である。
+
+
+\begin{thebibliography}{999}
+
+\bibitem{necomimi}
+\begin{flushleft}
+  neurowear: necomimi, 2012・2021. 参照ページ：“necomimi”, neurowear，https://neurowear.com/necomimi/，（2022年3月20日最終閲覧）
+\end{flushleft}
+
+\bibitem{shippo}
+  neurowear: shippo, 2012. 参照ページ：“脳波で動くしっぽ “shippo” ”，KILUCK：機楽株式会社，2012年10月15日，http://www.kiluck.co.jp/?p=61\&lang=ja（2022年3月20日最終閲覧）
+  
+ \bibitem{shippo_pr}
+ \begin{flushleft}
+ YouTubeチャンネル「Weird Japan」：“Shippo Tail Neurowear (Japanesse Inventions) - Weird Japan”，YouTube, 2015/03/25, https://www.youtube.com/watch?v=83LTMbsIQRA（2022年4月9日最終閲覧）
+ \end{flushleft}
+
+\bibitem{Augmenting Human With a Tail}
+  Haoran Xie, Kento Mitsuhashi, Takuma Torii: Augmenting Human With a Tail, AH2019: Proceedings of the 10th Augmented Human International Conference 2019, Article No.: 35，pp.1\UTF{2013}7, 2019, https://doi.org/10.1145/3311823.3311847
+
+\bibitem{Thanks tail}
+八谷和彦：Thanks tail, 1996. 参照ページ：“ Thanks tail”，PetWORKs，2009年8月28日，http://www.petworks.co.jp/~hachiya/works/ThanksTail.html（2022年3月20日最終閲覧）
+
+\bibitem{Thanks tail_movie}
+YouTubeチャンネル「kazuhiko hachiya」：“ThanksTail (1996) サンクステイル - ”，YouTube，2009年8月28日，https://www.youtube.com/watch?v=47CX3hjpjRk（2022年4月13日最終閲覧）
+  
+\bibitem{Thanks tail article}
+\begin{flushleft}
+アイティメディア株式会社：“ウワサの車用“しっぽ”を動かしてきました”， ITmedia NEWS ，2004年12月25日，https://www.itmedia.co.jp/lifestyle/articles/0412/15/news033.html（2022年3月20日最終閲覧）
+\end{flushleft}
+
+\bibitem{kojien}
+新村出編，広辞苑（第 6 版），岩波書店，2008
+
+\bibitem{jpKnowledge}
+\begin{flushleft}
+株式会社ネットアドバンス：ジャパンナレッジ Lib，https://japanknowledge.com/library/（2022年3月17日最終閲覧）
+\end{flushleft}
+
+\bibitem{oyasan}
+水瀬るるう：『大家さんは思春期！』，株式会社芳文社，第1巻 pp.57\UTF{2013}61，2013
+
+\bibitem{servant_1}
+高津カリノ：『サーバント×サービス』，株式会社スクウェア・エニックス，第2巻 p.92，2012
+
+\bibitem{servant_2}
+高津カリノ：『サーバント×サービス』，株式会社スクウェア・エニックス，第3巻 p.62，2013
+
+\bibitem{Ahogation}
+野地 遼一，阿部 隼多，伊藤 貴洋，諸戸 貴志，濱川 礼：触覚型デバイスによる感情表現システムAhogation，研究報告ゲーム情報学（GI），2016
+
+\bibitem{Hairware}
+\begin{flushleft}
+Katia Vega, Marcio Cunha, Hugo Fuks: Hairware: The Conscious Use of Unconscious Auto-contact Behaviors, IUI '15: Proceedings of the 20th International Conference on Intelligent User Interfaces, pp.78\UTF{2013}86, 2015, https://doi.org/10.1145/2678025.2701404
+\end{flushleft}
+
+\bibitem{HairIO}
+Christine Dierk, Sarah Sterman, Molly Jane Pearce Nicholas, Eric Paulos: H\UTF{00E4}irI\UTF{00D6}: Human Hair as Interactive Material, TEI '18: Proceedings of the Twelfth International Conference on Tangible, Embedded, and Embodied Interaction, pp.148\UTF{2013}157, 2018, https://doi.org/10.1145/3173225.3173232
+
+\bibitem{LH}
+Bing Li, Dawei Zheng, Yujia Lu, Fangtian Ying, Cheng Yao: LightingHair Slice: Situated Personal Wearable Fashion Interaction System, CHI EA '17: Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems, pp.1824\UTF{2013}1828, 2017, https://doi.org/10.1145/3027063.3053093
+
+\bibitem{Stail}
+佐藤 大貴，三武 裕玄，長谷川 晶一：メッシュチューブとワイヤ駆動を用いたS字を描ける装着型猫のしっぽデバイス，エンタテインメントコンピューティングシンポジウム2015論文集，2015
+
+\bibitem{Qoobo}
+ユカイ工学：Qoobo，2018．参照ページ：“【公式ストア】Qoobo（クーボ）心を癒やす、しっぽクッション。”， ユカイ工学 オンラインストア，https://store.ux-xu.com/products/qoobo（2022年3月20日最終閲覧）
+
+\bibitem{tentacle}
+中安 翌：“触手アクチュエータの作り方”， lecture.nakayasu.com，2018年8月23日，http://lecture.nakayasu.com/?p=2896（2022年3月17日最終閲覧）
+
+\bibitem{sg90}
+秋月電子通商：“マイクロサーボ９ｇ　ＳＧ\UTF{FF0D}９０”，秋月電子通商-電子部品・ネット通販，https://akizukidenshi.com/catalog/g/gM-08761/（2022年3月20日最終閲覧）
+
+\bibitem{research_watch}
+\begin{flushleft}
+株式会社ＭＭ総研：“スマートウォッチの国内販売台数が200万台を突破 ≪ プレスリリース ”，株式会社ＭＭ総研，2021年9月16日，https://www.m2ri.jp/release/detail.html?id=508（2022年3月20日最終閲覧）
+\end{flushleft}
+
+\bibitem{research_mobileOS}
+Statcounter Global Stats：“Mobile Operating System Market Share Japan”, Statcounter Global Stats, 2022年2月，https://gs.statcounter.com/os-market-share/mobile/japan（2022年3月20日最終閲覧）
+
+\bibitem{research_mobileOS_2}
+MMD研究所：“2021年12月スマートフォンOSシェア調査”，MMD研究所，2021年12月14日，https://mmdlabo.jp/investigation/detail\_2012.html（2022年3月20日最終閲覧）
+
+\bibitem{A Dog Tail for Utility Robots}
+Singh, A., Young, J.E, A Dog Tail for Utility Robots: Exploring Affective Properties of Tail Movement. In: Kotz\UTF{00E9}, P., Marsden, G., Lindgaard, G., Wesson, J., Winckler, M. (eds) Human-Computer Interaction \UTF{2013} INTERACT 2013. INTERACT 2013, Lecture Notes in Computer Science, vol 8118. Springer, Berlin, Heidelberg, 2013, https://doi.org/10.1007/978-3-642-40480-1\_27
+
+\bibitem{Costail}
+\begin{flushleft}
+Cosgear：“Costail - Robotic Tail \UTF{2013}”, Cosgear, https://cosgear.co/products/buycostail?variant=31754620567651（2022年3月20日最終閲覧）
+\end{flushleft}
+
+\bibitem{noise}
+全国環境研協議会 騒音調査音小委員会：“騒音の目安 （都心・近郊用）”，環境省，2018年8月14日，https://www.env.go.jp/air/souon\_meyasu\_1.pdf（2022年3月20日最終閲覧）
+
+
+\end{thebibliography}
+
 \end{document}
