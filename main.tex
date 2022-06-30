@@ -43,15 +43,14 @@
 \section{そのテーマを希望する理由・動機}
 本研究テーマを希望する動機は、日常的な場面で利用可能な、感情や意図の表現手段を増やすことである。
 人間の感情や意図は、発話や顔面の表情、身ぶり手ぶり等によって表現されるが、病気や習慣等の影響でこれらの手段をうまく使えない人もいる。そこで、犬や猫の尾のように感情や意図を表すことが一般に認知されている物を模倣すれば、表現の幅が広がると考える。ただし、模倣対象が人間の外観に調和しない場合は目立つため、使用シーンが限られる。そこで本研究では、目立たないことを条件とし、頭髪の毛束を尾に見立て、尾の表現を模倣する。
-顔付近に表現手段が増えることは、人間のコミュニケーションが主に顔を見て行われることや、マスクの着用、および肩から上のみが映るビデオ通話を多用する現況を踏まえても、ハンディキャップの有無を問わず有用であると考える。
 %動機のところが背景とか目的と被るのは、項目の性質上やむをえなさそうなので気にしないことにする
 
 
 \section{そのテーマに関する研究の状況や背景}
 %感情表現系デバイスへの言及
-表現拡張系デバイスの例に、neurowearチームによる necomimi \cite{necomimi}やshippo \cite{shippo}がある。前者は猫の耳を、後者は尻尾をモチーフとしており、整体情報をセンシングして動く。その他の例を含め、表現拡張系デバイスの多くは装着して目立つことを前提にデザインされてきた。それゆえ、目立たずに利用できない課題がある。感情等の表現対象が明確に現れることは，表現方法を拡張する目的にすらなり得る。しかし、表現媒体の様相として、その存在が目立つことに必然性はないと考える。そこで、耳や尻尾といった外観ごと身につけるのではなく、表現媒体は普段から人に備わっているものを活用し、それを動かす機能を与えるデバイスを提案する。表現媒体として、普段のコミュニケーションにおける視認性に優れた頭髪を採用する。
-%しっぽ系の研究のことを一生懸命例示してるけど、ここは本質じゃないことをわかってない？　当時まだリサーチが甘かっただけで、本当はここでは髪系の先行事例のことを言わないといけないんだけども
-頭髪をインタフェースとする関連研究では、その多くが髪に触れることによる情報の入力を扱っている\cite{smartzWig}\cite{Hairware}\cite{HairIO}。出力による表現は発光\cite{LH}\cite{V\UTF{00E4}riWig}や伸縮\cite{HairIO}に限られている。また、これらの研究で採用された髪形の多くが細い毛束か三つ編みである。つまり、髪による動的出力は未成熟の分野であり、技術を適用する髪形にも制限がある状況である。
+表現拡張系デバイスの例に、neurowearチームによる necomimiやshippoがある。前者は猫の耳を、後者は尻尾をモチーフとしており、整体情報をセンシングして動く。その他の例を含め、表現拡張系デバイスの多くは装着して目立つことを前提にデザインされてきた。それゆえ、目立たずに利用できない課題がある。感情等の表現対象が明確に現れることは，表現方法を拡張する目的にすらなり得る。しかし、表現媒体の様相として、その存在が目立つことに必然性はないと考える。そこで本研究では、耳や尻尾といった外観ごと身につけるのではなく、表現媒体には人に備わっている頭髪を採用し、それを動かす機能を与えるデバイスを提案する。頭髪を採用する理由は、普段のコミュニケーションにおける視認性に優れているためである。顔付近に表現手段が増えることは、人間のコミュニケーションが主に顔を見て行われることや、マスクの着用、および肩から上のみが映るビデオ通話を多用する現況を踏まえても、ハンディキャップの有無を問わず有用であると考える。さらに、漫画やアニメーションにおいて，感情を表すという既知の表現があるため、髪と感情の間には既に一定のイメージが形成されていると言える。
+
+頭髪をインタフェースとする関連研究では、その多くが髪に触れることによる情報の入力を扱っている。出力による表現は発光や伸縮に限られている。また、これらの研究で採用された形状の多くが、細い毛束か三つ編みである。つまり、髪による動的出力は未成熟の分野であり、技術を適用する髪形にも制限がある状況である。
 %だいぶ変えてしまった
 
 \section{研究の目的} 
@@ -59,67 +58,28 @@
 %「そして」ってつくづく微妙だよな
 
 \section{考えられる研究の方法} 
-髪を動かす技術的な検証段階については、ヘアエクステンションやかつらを用いた試作と、地毛で実現する有用性を吟味の上、地毛への展開を試みる。評価の段階では、プロトタイプを日常生活で用いることや、体験型のワークショップを通じて実証実験を行う。ユーザや観察者の意見・感想を収集して、操作方法や挙動を評価し、改善する。
+髪を動かす技術的な検証段階では、ヘアエクステンションやかつらを用いた試作の上、有効な場合は地毛への展開を試みる。なお、目立たず、かつ身につけられるという条件を達成するには、小型・軽量・静音化が必須であるが、これらの対応は高い技術力を要する。そのため、場合によっては目的に応じて条件を緩和の上、表現の開発に重点を置くことも考えられる。つまり、目的を細分化して施策を繰り返すことで、実現可能な落とし所を探るプロセスを踏む。
+
+また、評価の段階では、プロトタイプを日常生活で用いることや、体験型のワークショップを通じて実証実験を行う。ユーザや観察者側の意見・感想を収集して、操作方法や挙動を評価し、改善する。
+%方法っていうか進め方というか、なんだかな
 
 \section{その研究の特色}
-身体をハードウェア込みで拡張するのではなく、既存の身体部位に対して機能拡張を行うことをコンセプトとしている点が特色である。このアプローチにより、デバイス着用における心身への負荷を軽減できる。また、関連研究の成果物の多くが目立つ外観をしているのに対して、目立たないデバイスを目指す点、また髪を動かすことが日常的な文脈でいかに活かし得るのかを探求する点が特徴である。
+身体をハードウェア込みで拡張するのではなく、既存の身体部位に対して機能拡張を行うことをコンセプトとする点が特色である。このアプローチにより、デバイス着用における心身への負荷を軽減できる。また、表現拡張系デバイスの多くが目立つ外観をしているのに対して、目立たないデバイスを目指す点、また髪を動かすことが日常的な文脈でどのように活かし得るのかを探求する点が特徴である。
 
 
 \begin{thebibliography}{999}
 
 \bibitem{necomimi}
-\begin{flushleft}
-  neurowear: necomimi, 2012・2021. 参照ページ：“necomimi”, neurowear，https://neurowear.com/necomimi/，（2022年3月20日最終閲覧）
-\end{flushleft}
+ neurowear: necomimi, 2012・2021. 参照ページ：“necomimi”, neurowear，https://neurowear.com/necomimi/（参照2022年3月20日）
 
 \bibitem{shippo}
-  neurowear: shippo, 2012. 参照ページ：“脳波で動くしっぽ “shippo” ”，KILUCK：機楽株式会社，2012年10月15日，http://www.kiluck.co.jp/?p=61\&lang=ja（2022年3月20日最終閲覧）
+neurowear: shippo, 2012. 参照ページ：“脳波で動くしっぽ “shippo” ”，KILUCK：機楽株式会社，2012年10月15日，http://www.kiluck.co.jp/?p=61\&lang=ja（参照2022年3月20日）
   
- \bibitem{smartWig}
-Tobita, H., and Kuzi, T. V\UTF{00E4}riWig: Interactive Coloring Wig Module: Wig-Based Wearable Computing Device for Communication and Entertainment. In Proceedings of the International Working Conference on Advanced Visual Interfaces (2012), AVI ’12, Association for Computing Machinery, pp. 299\UTF{2013}302. https://doi.org/10.1145/2254556.2254613
- 
- 
-\bibitem{V\UTF{00E4}riWig}
-Damien Brun, Jonna H\UTF{00E4}kkil\UTF{00E4}. V\UTF{00E4}riWig: Interactive Coloring Wig Module. ISWC '21: 2021 International Symposium on Wearable Computers, September 2021 pp. 166\UTF{2013}169, https://doi.org/10.1145/3460421.3478832
-
-\bibitem{Augmenting Human With a Tail}
-  Haoran Xie, Kento Mitsuhashi, Takuma Torii: Augmenting Human With a Tail, AH2019: Proceedings of the 10th Augmented Human International Conference 2019, Article No.: 35，pp.1\UTF{2013}7, 2019, https://doi.org/10.1145/3311823.3311847
-
-\bibitem{Thanks tail}
-八谷和彦：Thanks tail, 1996. 参照ページ：“ Thanks tail”，PetWORKs，2009年8月28日，http://www.petworks.co.jp/~hachiya/works/ThanksTail.html（2022年3月20日最終閲覧）
-
-\bibitem{Thanks tail_movie}
-YouTubeチャンネル「kazuhiko hachiya」：“ThanksTail (1996) サンクステイル - ”，YouTube，2009年8月28日，https://www.youtube.com/watch?v=47CX3hjpjRk（2022年4月13日最終閲覧）
-  
-\bibitem{Thanks tail article}
-\begin{flushleft}
-アイティメディア株式会社：“ウワサの車用“しっぽ”を動かしてきました”， ITmedia NEWS ，2004年12月25日，https://www.itmedia.co.jp/lifestyle/articles/0412/15/news033.html（2022年3月20日最終閲覧）
-\end{flushleft}
-
-\bibitem{kojien}
-新村出編，広辞苑（第 6 版），岩波書店，2008
-
-\bibitem{jpKnowledge}
-\begin{flushleft}
-株式会社ネットアドバンス：ジャパンナレッジ Lib，https://japanknowledge.com/library/（2022年3月17日最終閲覧）
-\end{flushleft}
-
-\bibitem{oyasan}
-水瀬るるう：『大家さんは思春期！』，株式会社芳文社，第1巻 pp.57\UTF{2013}61，2013
-
-\bibitem{servant_1}
-高津カリノ：『サーバント×サービス』，株式会社スクウェア・エニックス，第2巻 p.92，2012
-
-\bibitem{servant_2}
-高津カリノ：『サーバント×サービス』，株式会社スクウェア・エニックス，第3巻 p.62，2013
-
-\bibitem{Ahogation}
-野地 遼一，阿部 隼多，伊藤 貴洋，諸戸 貴志，濱川 礼：触覚型デバイスによる感情表現システムAhogation，研究報告ゲーム情報学（GI），2016
+\bibitem{smartWig}
+Tobita, H., and Kuzi, T. SmartWig: wig-based wearable computing device for communication and entertainment. In Proceedings of the International Working Conference on Advanced Visual Interfaces (2012), AVI ’12, Association for Computing Machinery, pp. 299\UTF{2013}302. https://doi.org/10.1145/2254556.2254613
 
 \bibitem{Hairware}
-\begin{flushleft}
 Katia Vega, Marcio Cunha, Hugo Fuks: Hairware: The Conscious Use of Unconscious Auto-contact Behaviors, IUI '15: Proceedings of the 20th International Conference on Intelligent User Interfaces, pp.78\UTF{2013}86, 2015, https://doi.org/10.1145/2678025.2701404
-\end{flushleft}
 
 \bibitem{HairIO}
 Christine Dierk, Sarah Sterman, Molly Jane Pearce Nicholas, Eric Paulos: H\UTF{00E4}irI\UTF{00D6}: Human Hair as Interactive Material, TEI '18: Proceedings of the Twelfth International Conference on Tangible, Embedded, and Embodied Interaction, pp.148\UTF{2013}157, 2018, https://doi.org/10.1145/3173225.3173232
@@ -127,40 +87,8 @@ Christine Dierk, Sarah Sterman, Molly Jane Pearce Nicholas, Eric Paulos: H\UTF{0
 \bibitem{LH}
 Bing Li, Dawei Zheng, Yujia Lu, Fangtian Ying, Cheng Yao: LightingHair Slice: Situated Personal Wearable Fashion Interaction System, CHI EA '17: Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems, pp.1824\UTF{2013}1828, 2017, https://doi.org/10.1145/3027063.3053093
 
-\bibitem{Stail}
-佐藤 大貴，三武 裕玄，長谷川 晶一：メッシュチューブとワイヤ駆動を用いたS字を描ける装着型猫のしっぽデバイス，エンタテインメントコンピューティングシンポジウム2015論文集，2015
-
-\bibitem{Qoobo}
-ユカイ工学：Qoobo，2018．参照ページ：“【公式ストア】Qoobo（クーボ）心を癒やす、しっぽクッション。”， ユカイ工学 オンラインストア，https://store.ux-xu.com/products/qoobo（2022年3月20日最終閲覧）
-
-\bibitem{tentacle}
-中安 翌：“触手アクチュエータの作り方”， lecture.nakayasu.com，2018年8月23日，http://lecture.nakayasu.com/?p=2896（2022年3月17日最終閲覧）
-
-\bibitem{sg90}
-秋月電子通商：“マイクロサーボ９ｇ　ＳＧ\UTF{FF0D}９０”，秋月電子通商-電子部品・ネット通販，https://akizukidenshi.com/catalog/g/gM-08761/（2022年3月20日最終閲覧）
-
-\bibitem{research_watch}
-\begin{flushleft}
-株式会社ＭＭ総研：“スマートウォッチの国内販売台数が200万台を突破 ≪ プレスリリース ”，株式会社ＭＭ総研，2021年9月16日，https://www.m2ri.jp/release/detail.html?id=508（2022年3月20日最終閲覧）
-\end{flushleft}
-
-\bibitem{research_mobileOS}
-Statcounter Global Stats：“Mobile Operating System Market Share Japan”, Statcounter Global Stats, 2022年2月，https://gs.statcounter.com/os-market-share/mobile/japan（2022年3月20日最終閲覧）
-
-\bibitem{research_mobileOS_2}
-MMD研究所：“2021年12月スマートフォンOSシェア調査”，MMD研究所，2021年12月14日，https://mmdlabo.jp/investigation/detail\_2012.html（2022年3月20日最終閲覧）
-
-\bibitem{A Dog Tail for Utility Robots}
-Singh, A., Young, J.E, A Dog Tail for Utility Robots: Exploring Affective Properties of Tail Movement. In: Kotz\UTF{00E9}, P., Marsden, G., Lindgaard, G., Wesson, J., Winckler, M. (eds) Human-Computer Interaction \UTF{2013} INTERACT 2013. INTERACT 2013, Lecture Notes in Computer Science, vol 8118. Springer, Berlin, Heidelberg, 2013, https://doi.org/10.1007/978-3-642-40480-1\_27
-
-\bibitem{Costail}
-\begin{flushleft}
-Cosgear：“Costail - Robotic Tail \UTF{2013}”, Cosgear, https://cosgear.co/products/buycostail?variant=31754620567651（2022年3月20日最終閲覧）
-\end{flushleft}
-
-\bibitem{noise}
-全国環境研協議会 騒音調査音小委員会：“騒音の目安 （都心・近郊用）”，環境省，2018年8月14日，https://www.env.go.jp/air/souon\_meyasu\_1.pdf（2022年3月20日最終閲覧）
-
+\bibitem{VariWig}
+Damien Brun,  Jonna H\UTF{00E4}kkil\UTF{00E4}. V\UTF{00E4}riWig: Interactive Coloring Wig Module. ISWC '21: 2021 International Symposium on Wearable Computers, September 2021,  pp. 166\UTF{2013}169. https://doi.org/10.1145/3460421.3478832
 
 \end{thebibliography}
 
