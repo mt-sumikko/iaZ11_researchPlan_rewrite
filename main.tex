@@ -49,14 +49,14 @@
 
 \section{そのテーマに関する研究の状況や背景}
 %感情表現系デバイスへの言及
-表現拡張系デバイスの例に、neurowearチームによる necomimi \cite{necomimi}やshippo \cite{shippo}がある。前者は猫の耳を、後者は尻尾をモチーフとしており、整体情報をセンシングして動く。その他の例を含め、多くの表現拡張系デバイスは，装着して目立つことを前提にデザインされてきた．それゆえ，目立たずに利用できない課題がある．感情等の表現対象が明確に現れることは，表現方法を拡張する目的にすらなり得る。しかし、表現媒体の様相として、その存在が目立つことに必然性はないと考える。そこで、耳や尻尾といった外観ごと身につけるのではなく、表現媒体は普段から人に備わっているものを活用し、それを動かす機能を与えるデバイスを提案する。表現媒体として、普段のコミュニケーションにおける視認性に優れた頭髪を採用する。
+表現拡張系デバイスの例に、neurowearチームによる necomimi \cite{necomimi}やshippo \cite{shippo}がある。前者は猫の耳を、後者は尻尾をモチーフとしており、整体情報をセンシングして動く。その他の例を含め、表現拡張系デバイスの多くは装着して目立つことを前提にデザインされてきた。それゆえ、目立たずに利用できない課題がある。感情等の表現対象が明確に現れることは，表現方法を拡張する目的にすらなり得る。しかし、表現媒体の様相として、その存在が目立つことに必然性はないと考える。そこで、耳や尻尾といった外観ごと身につけるのではなく、表現媒体は普段から人に備わっているものを活用し、それを動かす機能を与えるデバイスを提案する。表現媒体として、普段のコミュニケーションにおける視認性に優れた頭髪を採用する。
 %しっぽ系の研究のことを一生懸命例示してるけど、ここは本質じゃないことをわかってない？　当時まだリサーチが甘かっただけで、本当はここでは髪系の先行事例のことを言わないといけないんだけども
-頭髪を媒体とする関連研究では、その多くが髪に触れることによる情報の入力を扱っている\cite{smartzWig}\cite{Hairware}
-人間につける尻尾の研究は
-バランスをとる\cite{Augmenting Human With a Tail}、意図・感情を表現する\cite{Augmenting Human With a Tail}など、複数の目的で展開されている。その成果物の多くは大きくて厳ついなど、座ることの多い生活では扱いにくい仕様になっている。そのような扱いづらさを概ね解消している作品に、脳波で動くしっぽ「shippo」\cite{necomimi}があります。製品化されたシリーズ作品に、脳波で動く猫耳「necomimi」\cite{necomimi}がありますが、仕様上、気軽に手に入る価格ではありません。また、サーボモーター駆動のため、音がすること、長時間着用するには重量が重く、着用者の負担になる課題がある。なにより、これらの作品は動物らしさを表現したデザインになっている。装着すると目立つ点が、全事例に共通する課題である。%内容をガッツリいじってもしょうがないけど、差し支えない範囲でどうにかしたい
+頭髪をインタフェースとする関連研究では、その多くが髪に触れることによる情報の入力を扱っている\cite{smartzWig}\cite{Hairware}\cite{HairIO}。出力による表現は発光\cite{LH}\cite{V\UTF{00E4}riWig}や伸縮\cite{HairIO}に限られている。また、これらの研究で採用された髪形の多くが細い毛束か三つ編みである。つまり、髪による動的出力は未成熟の分野であり、技術を適用する髪形にも制限がある状況である。
+%だいぶ変えてしまった
 
 \section{研究の目的} 
-目立たないという条件下で髪、とくに毛束を動かす手法の開発。編み込まない髪型、振るなどこれまで提案されて来なかった動きのバリエーションを展開する。髪を動かすことがどのような文脈、状況で受け入れられる　活用できるのかを評価する。
+本研究の目的は、毛束による動的表現を目立たないデバイスで実現し、その有用性を評価することである。とくに、編み込まない髪型を対象とし、毛束を尾のように振るといった、これまで実践されてこなかった形状および動きのバリエーションを展開する。そして、動く髪をがどのような文脈、状況で受け入れられ、活用できるのかを考察する。
+%「そして」ってつくづく微妙だよな
 
 \section{考えられる研究の方法} 
 髪を動かす技術的な検証段階については、ヘアエクステンションやかつらを用いた試作と、地毛で実現する有用性を吟味の上、地毛への展開を試みる。評価の段階では、プロトタイプを日常生活で用いることや、体験型のワークショップを通じて実証実験を行う。ユーザや観察者の意見・感想を収集して、操作方法や挙動を評価し、改善する。
@@ -76,8 +76,11 @@
   neurowear: shippo, 2012. 参照ページ：“脳波で動くしっぽ “shippo” ”，KILUCK：機楽株式会社，2012年10月15日，http://www.kiluck.co.jp/?p=61\&lang=ja（2022年3月20日最終閲覧）
   
  \bibitem{smartWig}
-Tobita, H., and Kuzi, T. SmartWig: Wig-Based Wearable Computing Device for Communication and Entertainment. In Proceedings of the International Working Conference on Advanced Visual Interfaces (2012), AVI ’12, Association for Computing Machinery, pp. 299\UTF{2013}302. https://doi.org/10.1145/2254556.2254613
- \end{flushleft}
+Tobita, H., and Kuzi, T. V\UTF{00E4}riWig: Interactive Coloring Wig Module: Wig-Based Wearable Computing Device for Communication and Entertainment. In Proceedings of the International Working Conference on Advanced Visual Interfaces (2012), AVI ’12, Association for Computing Machinery, pp. 299\UTF{2013}302. https://doi.org/10.1145/2254556.2254613
+ 
+ 
+\bibitem{V\UTF{00E4}riWig}
+Damien Brun, Jonna H\UTF{00E4}kkil\UTF{00E4}. V\UTF{00E4}riWig: Interactive Coloring Wig Module. ISWC '21: 2021 International Symposium on Wearable Computers, September 2021 pp. 166\UTF{2013}169, https://doi.org/10.1145/3460421.3478832
 
 \bibitem{Augmenting Human With a Tail}
   Haoran Xie, Kento Mitsuhashi, Takuma Torii: Augmenting Human With a Tail, AH2019: Proceedings of the 10th Augmented Human International Conference 2019, Article No.: 35，pp.1\UTF{2013}7, 2019, https://doi.org/10.1145/3311823.3311847
