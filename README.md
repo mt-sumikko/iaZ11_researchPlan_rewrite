@@ -1,2 +1,5 @@
 # iaZ11_researchPlan_rewrite
- A研究特論Z 第11回課題
+IA研究特論Z 第11回課題
+researchPlan_2021.pdfが当時の研究計画書、
+researchPlan_2022_rewrited.pdfが今回書きおなしたものになります。
+当時描いたものが酷すぎて内容にもかなりテコが入ってしまっていますが、課題趣旨からそれすぎない程度には抑えました。
