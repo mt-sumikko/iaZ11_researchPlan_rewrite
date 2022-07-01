@@ -8,7 +8,7 @@ IA研究特論Z 第11回課題
 - researchPlan_2021.pdf：当時の研究計画書
 - researchPlan_2022_rewrited.pdf：今回書きおなしたもの
 
-GitHub上にあるPDFを見るのがわりと手間かかりそうなので、READMEにも転載しておきます。
+GitHub上のPDFプレビューだと壊れてみえてしまい、ダウンロードの手間が生じてしまうので、READMEにも転載しておきます。
 
 ## 元原稿
 ![researchPlan_2021_ページ_2](https://user-images.githubusercontent.com/43632737/176850181-74d3e244-b21a-4387-8d92-1ebeb9f4e75a.jpg)
